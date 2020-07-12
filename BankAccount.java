@@ -1,9 +1,4 @@
 import java.util.ArrayList;
-
-/**
- *
- * @author kostis
- */
 public class BankAccount {
     private int number;
     private double amount;
