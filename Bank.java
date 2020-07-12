@@ -12,15 +12,12 @@ public class Bank {
        
       account2.getTransactions();
       
-      
       Person p1 = new Person("Bary",30,account1);
+      Person p2 = new Person ("Mary",31,account1);
       
       System.out.println(p1.getAccounts().getAmount());
       
-      
-      Person p2 = new Person (p1.getName(),31,account1);
-      
-        System.out.println(p2.getAccounts().getAmount());
+      System.out.println(p2.getAccounts().getNumber());
     }
     
    
