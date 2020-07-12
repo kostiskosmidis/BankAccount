@@ -1,8 +1,4 @@
 public class Bank {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
        BankAccount account1 = new BankAccount("Ethniki", 1);
        
