@@ -14,7 +14,7 @@ public class Bank {
       account2.deposit(900);
       account2.withdraw(200);
        
-      //account2.getTransactions();
+      account2.getTransactions();
       
       
       Person p1 = new Person("Bary",30,account1);
